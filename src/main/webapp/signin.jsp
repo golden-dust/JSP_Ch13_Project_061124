@@ -25,28 +25,29 @@
 <body>
 	<h2><a href="main.jsp">HOME </a>&nbsp;&nbsp;>&nbsp;&nbsp;Member Sign In</h2>
 	<hr>
-	
-	<div class="form-table">
-		<table>
-			<tr>
-				<td><label for="inputID">ID : </label></td>
-				<td>
-					<input type="text" name="inputID">
-				</td>
-			</tr>
-			<tr>
-				<td><label for="inputPW">PW : </label></td>
-				<td>
-					<input type="password" name="inputPW">
-				</td>
-			</tr>
-		</table>
-	</div>
-	<div class="footer">
-		<form action="membership.jsp" onsubmit="">
+	<form action="membership.jsp" onsubmit="">
+		<div class="form-table">
+			<table>
+				<tr>
+					<td><label for="inputID">ID : </label></td>
+					<td>
+						<input type="text" name="inputID">
+					</td>
+				</tr>
+				<tr>
+					<td><label for="inputPW">PW : </label></td>
+					<td>
+						<input type="password" name="inputPW">
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="footer">
+			
 			<a href="signup.jsp">sign up</a>&nbsp;&nbsp;
 			<input type="submit" value="sign in">
-		</form>
-	</div>
+			
+		</div>
+	</form>
 </body>
 </html>
