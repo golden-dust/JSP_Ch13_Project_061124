@@ -5,34 +5,37 @@
 <head>
 <meta charset="UTF-8">
 <title>login page for administrator </title>
+<script type="text/javascript" src="js/login.js"></script>
 </head>
 <body>
-	<h2><a href="main.jsp">HOME </a>&nbsp;&nbsp;>&nbsp;&nbsp;Admin Log In</h2>
+	<h2><a href="main.jsp">HOME</a>&nbsp;&nbsp;>&nbsp;&nbsp;Admin Log In</h2>
 	<hr>
 	
-	<form>
-		<fieldset>
+	<form action="loginSuccess.jsp" name="loginForm" method="post" onsubmit="return loginCheck()">
+		<fieldset style="width: 240px; padding: 10px;">
 			<legend>admin log in</legend>
 			<table>
 				<tr>
 					<td>
-						<label for="inputID">ID : </label>
+						<label for="adminID">ID : </label>
 					</td>
 					<td>
-						<input type="text" name="inputID">
+						<input type="text" name="adminID">
 					</td>
 				</tr>
 				
 				<tr>
 					<td>
-						<label for="inputPW">PW : </label>
+						<label for="adminPW">PW : </label>
 					</td>
 					<td>
-						<input type="password" name="inputPW">
+						<input type="password" name="adminPW">
 					</td>
 				</tr>
 			</table>
-			<input type="submit" value="login">
+			<div align="center">
+				<input type="submit" value="login">
+			</div>
 		</fieldset>
 	</form>
 </body>

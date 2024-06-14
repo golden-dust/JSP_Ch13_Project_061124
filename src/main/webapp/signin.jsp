@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>member sign in page</title>
+<title>member sign in</title>
 <style>
 	div.form-table {
 		padding: 10px;
@@ -23,9 +23,9 @@
 </style>
 </head>
 <body>
-	<h2><a href="main.jsp">HOME </a>&nbsp;&nbsp;>&nbsp;&nbsp;Member Sign In</h2>
+	<h2><a href="main.jsp">HOME</a>&nbsp;&nbsp;>&nbsp;&nbsp;Sign In</h2>
 	<hr>
-	<form action="membership.jsp" onsubmit="">
+	<form action="signinCheck.jsp" onsubmit="return ">
 		<div class="form-table">
 			<table>
 				<tr>

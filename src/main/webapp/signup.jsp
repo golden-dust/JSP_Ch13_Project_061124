@@ -9,16 +9,10 @@
 <body>
 	<h2><a href="main.jsp">HOME </a>&nbsp;&nbsp;>&nbsp;&nbsp;Sign Up</h2>
 	<hr>
-	<form>
-		<fieldset>
+	<form action="insertDB.jsp" name="joinForm" onsubmit="return ">
+		<fieldset style="width: 360px; padding: 10px;">
 			<legend>Sign Up</legend><p>
 			<table>
-				<tr>
-					<td><label for="userName">Name : </label></td>
-					<td>
-						<input type="text" size="30" name="userName">
-					</td>
-				</tr>
 				<tr>
 					<td><label for="userID">ID : </label></td>
 					<td>
@@ -39,16 +33,22 @@
 					</td>
 				</tr>
 				<tr>
+					<td><label for="userName">Name : </label></td>
+					<td>
+						<input type="text" size="30" name="userName">
+					</td>
+				</tr>
+				<tr>
 					<td><label for="userEmail">Email : </label></td>
 					<td>
 						<input type="email" size="40" name="userEmail">
 					</td>
 				</tr>
 			</table>
-			<hr>
-			<input type="reset" value="◀   reset">
-			<input type="submit" value="sign up ▶">
-			
+			<div align="center">
+				<input type="reset" value="◀   reset">
+				<input type="submit" value="sign up ▶">
+			</div>
 		</fieldset>
 	</form>
 </body>

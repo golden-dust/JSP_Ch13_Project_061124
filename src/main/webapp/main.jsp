@@ -29,7 +29,7 @@
 </head>
 <body>
 	<div class="main-cont">
-		<img src="img/jsp.jpg" width="500"><br><br>
+		<img src="img/jsp.JPG" width="500"><br><br>
 		<table>
 			<tr>
 				<td class="leftcol">
